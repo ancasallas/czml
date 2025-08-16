@@ -1,12 +1,12 @@
 async function init() {
-    Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIyYzZjNjkwNy1hNmJjLTQ3Y2EtOWQ5NS0yYzM4Mzk0YzkzNjciLCJpZCI6MzE4NTIsInNjb3BlcyI6WyJhc3IiLCJnYyJdLCJpYXQiOjE1OTYwNjUyNzB9.RvMzC5gf0JKfZzhl3nX0g60_MqWICPLGfshdhNhscH4';
+    Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJlNDUzYzdkYS0wM2I5LTQ2NTYtYjQ0YS00YmNlYzA1ZWU5MjAiLCJpZCI6MzMxMzY4LCJpYXQiOjE3NTUwNDI1ODh9.MKN8zgCvadRLANRddQ8AO7T3eZzxrWMwk39zAIosiGQ';
 
     const viewer = new Cesium.Viewer('cesiumContainer', {
         terrain: Cesium.Terrain.fromWorldTerrain(),
     });
 
     try {
-        const ds = await Cesium.CzmlDataSource.load('ciudades.czml');
+        const ds = await Cesium.CzmlDataSource.load('escena.czml');
         viewer.dataSources.add(ds);
         await viewer.zoomTo(ds);
     } catch (e) {
