@@ -9,12 +9,11 @@
       "multiplier": 510000
     }
   },
+
   {
     "id": "bogota",
     "name": "Bogotá",
-    "position": {
-      "cartographicDegrees": [-74.096, 4.629, 0]
-    },
+    "position": { "cartographicDegrees": [-74.096, 4.629, 0] },
     "ellipse": {
       "semiMinorAxis": 20000,
       "semiMajorAxis": 20000,
@@ -28,26 +27,20 @@
         { "interval": "2025-08-27T00:00:00Z/2025-08-29T23:00:00Z", "number": 20000 }
       ],
       "extrudedHeightReference": "RELATIVE_TO_GROUND",
-      "material": {
-        "solidColor": {
-          "color": { "rgba": [204, 153, 0, 180] }
-        }
-      }
+      "material": { "solidColor": { "color": { "rgba": [204, 153, 0, 180] } } },
+      "outline": true,
+      "outlineColor": { "rgba": [0, 0, 0, 220] },
+      "outlineWidth": 2
     }
   },
+
   {
     "id": "medellin",
     "name": "Medellín",
-    "polygon": {
-      "positions": {
-        "cartographicDegrees": [
-          -75.6062, 6.2192, 0,
-          -75.5562, 6.2192, 0,
-          -75.5562, 6.2692, 0,
-          -75.6062, 6.2692, 0,
-          -75.6062, 6.2192, 0
-        ]
-      },
+    "position": { "cartographicDegrees": [-75.5636, 6.2518, 0] },
+    "ellipse": {
+      "semiMinorAxis": 20000,
+      "semiMajorAxis": 20000,
       "height": 0,
       "heightReference": "RELATIVE_TO_GROUND",
       "extrudedHeight": [
@@ -58,26 +51,20 @@
         { "interval": "2025-08-27T00:00:00Z/2025-08-29T23:00:00Z", "number": 32000 }
       ],
       "extrudedHeightReference": "RELATIVE_TO_GROUND",
-      "material": {
-        "solidColor": {
-          "color": { "rgba": [34, 139, 34, 180] }
-        }
-      }
+      "material": { "solidColor": { "color": { "rgba": [34, 139, 34, 180] } } },
+      "outline": true,
+      "outlineColor": { "rgba": [0, 0, 0, 220] },
+      "outlineWidth": 2
     }
   },
+
   {
     "id": "cali",
     "name": "Cali",
-    "polygon": {
-      "positions": {
-        "cartographicDegrees": [
-          -76.54, 3.43, 0,
-          -76.52, 3.44, 0,
-          -76.51, 3.46, 0,
-          -76.53, 3.47, 0,
-          -76.55, 3.45, 0
-        ]
-      },
+    "position": { "cartographicDegrees": [-76.531, 3.4516, 0] },
+    "ellipse": {
+      "semiMinorAxis": 20000,
+      "semiMajorAxis": 20000,
       "height": 0,
       "heightReference": "RELATIVE_TO_GROUND",
       "extrudedHeight": [
@@ -88,24 +75,20 @@
         { "interval": "2025-08-27T00:00:00Z/2025-08-29T23:00:00Z", "number": 30000 }
       ],
       "extrudedHeightReference": "RELATIVE_TO_GROUND",
-      "material": {
-        "solidColor": {
-          "color": { "rgba": [0, 0, 255, 150] }
-        }
-      }
+      "material": { "solidColor": { "color": { "rgba": [0, 0, 255, 150] } } },
+      "outline": true,
+      "outlineColor": { "rgba": [0, 0, 0, 220] },
+      "outlineWidth": 2
     }
   },
+
   {
     "id": "barranquilla",
     "name": "Barranquilla",
-    "polygon": {
-      "positions": {
-        "cartographicDegrees": [
-          -74.80, 10.98, 0,
-          -74.79, 10.99, 0,
-          -74.78, 10.98, 0
-        ]
-      },
+    "position": { "cartographicDegrees": [-74.806, 10.9878, 0] },
+    "ellipse": {
+      "semiMinorAxis": 20000,
+      "semiMajorAxis": 20000,
       "height": 0,
       "heightReference": "RELATIVE_TO_GROUND",
       "extrudedHeight": [
@@ -116,11 +99,10 @@
         { "interval": "2025-08-27T00:00:00Z/2025-08-29T23:00:00Z", "number": 16000 }
       ],
       "extrudedHeightReference": "RELATIVE_TO_GROUND",
-      "material": {
-        "solidColor": {
-          "color": { "rgba": [255, 0, 0, 200] }
-        }
-      }
+      "material": { "solidColor": { "color": { "rgba": [255, 0, 0, 200] } } },
+      "outline": true,
+      "outlineColor": { "rgba": [0, 0, 0, 220] },
+      "outlineWidth": 2
     }
   }
 ]
