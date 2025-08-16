@@ -6,7 +6,7 @@ async function init() {
     });
 
     try {
-        const ds = await Cesium.CzmlDataSource.load('circulo_dinamico.czml');
+        const ds = await Cesium.CzmlDataSource.load('ciudades.czml');
         viewer.dataSources.add(ds);
         await viewer.zoomTo(ds);
     } catch (e) {
